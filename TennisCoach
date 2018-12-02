@@ -3,7 +3,7 @@ package com.luv2code.springdemo;
 import org.springframework.stereotype.Component;
 
 //@Component("tennisCoach") // this is the beanId we want to use and it registers this Spring bean automatically
-@Component // no explicitely specify the beanId
+@Component // no explicitly specify the beanId
 public class TennisCoach implements Coach {
 
 	@Override
