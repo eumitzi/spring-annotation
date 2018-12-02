@@ -1,0 +1,4 @@
+Development process - Step by step
+1) enable component scanning in spring config file
+2) add the @Component annotation to my Java classes
+3) retrieve bean from Spring container
