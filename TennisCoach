@@ -1,0 +1,13 @@
+package com.luv2code.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component("theSillyCoach") // this is the beanId we want to use and it registers this Spring bean automatically
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "Practice your backhand volley";
+	}
+
+}
