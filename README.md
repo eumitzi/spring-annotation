@@ -23,6 +23,6 @@ public class TrackCoach implements Coach {
   ...
 }
 
-The annotation @Override it tells the compiler that we are gonna implement an interface
+The annotation @Override tells the compiler that we are gonna implement an interface
 or extend a class and we are overriding a method.
 At compilation, the compiler will check/verify the override.
